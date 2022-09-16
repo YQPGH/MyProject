@@ -1,0 +1,163 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/run/bg.png") no-repeat fixed;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #3d3536;
+    background-size: 100% 100% ;
+    background-color: white;
+}
+
+
+body, html {
+    /* important */
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+    #word{
+        top: 26% !important;
+    }
+
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+
+/**ipad**/
+@media only screen and (min-width:768px)and(max-width:1024px){
+
+}
+/**ipad**/
+@media only screen and (min-width:768px){
+
+}
+
+
+img{border:none}
+a {
+    color: #b4d7a8;
+    text-decoration: none;
+}
+
+
+.bg{
+    /*position:absolute;*/
+    background: url(../images/run/invite_bg.png) no-repeat  50% 50% ;
+    background-size: 100% ;
+
+
+}
+#manager{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    width: 38%;
+
+}
+#word{
+    position: absolute;
+    /*background: url(../images/run/content.png) no-repeat ;*/
+    /*background-size: 100% 100% ;*/
+    width: 63vw;
+    top: 33%;
+    left: 17%;
+    text-align:center;
+    font-size:20px ;
+    padding: 10px 10px 30px 10px;
+    font-family: "微软雅黑", 黑体;
+
+}
+
+
+.submit {
+    position: absolute;
+    background: url("../images/run/btn_bg.png") no-repeat 100%;
+    height: 63px;
+    width: 139px;
+    /*bottom: 5%;*/
+    left: 32%;
+}
+
+#sub {
+    border: 0;
+    height: 61px;
+    width: 139px;
+    background-image: url(../images/run/btn_submit.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+}
+#sub:active{
+    background-image: url(../images/run/btn_submit.png) ;
+    background-position: 0 -63px;
+    background-color: rgba(0,0,0,0);
+}
+
+
+
+#msg{
+    position: absolute;
+    background-color: #852c20;
+    border-radius: 3px;
+    width: 240px;
+    height: 110px;
+    line-height: 100px;
+    display: none;
+    opacity: 0.9;
+    z-index: 99;
+    text-align: center;
+    color: #FFFFFF;
+    left: 20%;
+    top: 30%;
+    font-size: 20px;
+}
+
+
+

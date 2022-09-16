@@ -1,0 +1,152 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../images/leaf_bg_01.png") repeat fixed;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #3d3536;
+    background-color: white;
+}
+
+body, html {
+    /* important */
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+    #word{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+
+/**ipad**/
+@media only screen and (min-width:768px)and(max-width:1024px){
+
+}
+/**ipad**/
+@media only screen and (min-width:768px){
+
+}
+
+
+img{border:none}
+a {
+    color: #b4d7a8;
+    text-decoration: none;
+}
+
+
+.bg{
+
+    /*position:absolute;*/
+    background: url(../images/leaf_share_bg.png) no-repeat 50% 50%;
+    background-size: 100%  ;
+    /*height: 100%;*/
+    /*width: 100%;*/
+
+
+}
+.content{
+    font-size: 20px;
+    position: absolute;
+    width: 50vw;
+    top: 44%;
+    left: 31vw;
+
+}
+#word{
+    position: absolute;
+    width: 64vw;
+    /*height: 70vw;*/
+    top: 38%;
+    left: 15%;
+    text-align:center;
+    font-size:20px ;
+    font-family: "微软雅黑", 黑体;
+}
+
+
+
+#sub{
+    position: absolute;
+    border: 0;
+    height: 40px;
+    width: 100px;
+    /*top: 82%;*/
+    left: 37%;
+    background-image: url(../images/leafBtn_01.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+
+}
+#sub:active{
+    background-color: rgba(0,0,0,0);
+}
+
+#msg{
+    position: absolute;
+    background-color: #6a3906;
+    border-radius: 3px;
+    width: 240px;
+    height: 150px;
+    padding-top: 30px;
+    line-height: 40px;
+    display: none;
+    opacity: 0.9;
+    z-index: 99;
+    text-align: center;
+    color: #FFFFFF;
+    left: 20%;
+    top: 35%;
+    font-size: 20px;
+}
+
+
+

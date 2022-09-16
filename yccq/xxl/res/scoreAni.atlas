@@ -1,0 +1,197 @@
+{
+    "frames": {
+        "0.png": {
+            "frame": {
+                "h": 63,
+                "idx": 0,
+                "w": 72,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 63,
+                "w": 72,
+                "x": 40,
+                "y": 10
+            },
+            "trimmed": true
+        },
+        "1.png": {
+            "frame": {
+                "h": 71,
+                "idx": 0,
+                "w": 77,
+                "x": 0,
+                "y": 64
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 71,
+                "w": 77,
+                "x": 37,
+                "y": 7
+            },
+            "trimmed": true
+        },
+        "2.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 79,
+                "x": 0,
+                "y": 136
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 77,
+                "w": 79,
+                "x": 36,
+                "y": 6
+            },
+            "trimmed": true
+        },
+        "3.png": {
+            "frame": {
+                "h": 89,
+                "idx": 0,
+                "w": 111,
+                "x": 78,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 89,
+                "w": 111,
+                "x": 11,
+                "y": 10
+            },
+            "trimmed": true
+        },
+        "4.png": {
+            "frame": {
+                "h": 104,
+                "idx": 0,
+                "w": 123,
+                "x": 80,
+                "y": 90
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 104,
+                "w": 123,
+                "x": 9,
+                "y": 13
+            },
+            "trimmed": true
+        },
+        "5.png": {
+            "frame": {
+                "h": 89,
+                "idx": 0,
+                "w": 111,
+                "x": 80,
+                "y": 195
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 89,
+                "w": 111,
+                "x": 11,
+                "y": 10
+            },
+            "trimmed": true
+        },
+        "6.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 79,
+                "x": 192,
+                "y": 195
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 77,
+                "w": 79,
+                "x": 36,
+                "y": 6
+            },
+            "trimmed": true
+        },
+        "7.png": {
+            "frame": {
+                "h": 71,
+                "idx": 0,
+                "w": 77,
+                "x": 0,
+                "y": 214
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 71,
+                "w": 77,
+                "x": 37,
+                "y": 7
+            },
+            "trimmed": true
+        },
+        "8.png": {
+            "frame": {
+                "h": 63,
+                "idx": 0,
+                "w": 72,
+                "x": 190,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 124,
+                "w": 138
+            },
+            "spriteSourceSize": {
+                "h": 63,
+                "w": 72,
+                "x": 40,
+                "y": 10
+            },
+            "trimmed": true
+        }
+    },
+    "meta": {
+        "image": "scoreAni.png",
+        "prefix": "scoreAni/"
+    }
+}

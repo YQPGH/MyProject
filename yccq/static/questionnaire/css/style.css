@@ -1,0 +1,387 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: white;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+
+}
+@media only screen and (min-width: 375px){
+    html {
+        font-size: 25px !important;
+    }
+  
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+  #introduce span{
+    font-size: 12px !important;
+  }
+    #all p{
+        height: 9vh !important;
+        font-size: 13px !important;
+    }
+    #all h5{
+        font-size: 14px !important;
+    }
+    #all li{
+        width: 70vw !important;
+        height: 32vh !important;
+    }
+
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important; 
+    }
+}
+
+
+/**ipad**/
+@media only screen and (min-width:768px){
+  body{
+    font-size: 30px;
+  }
+    #time{
+        font-size: 30px !important;
+        top: 11.5vw !important;
+
+    }
+  #content{
+    font-size: 30px !important;
+    line-height:36px !important;
+  }
+  #introduce span{
+    font-size: 24px !important; 
+  }
+   #all li{
+    margin-left: -4.6vw !important; 
+  }
+ #all p{
+  margin:0 0 0 2vh !important;
+  font-size: 18px !important;
+ }
+
+  #all h5{
+    margin-left: 0 !important;
+    font-size: 18px !important;
+    width: 30vw !important;
+  }
+ #all span{
+  width: 24vw !important; 
+  line-height: 24px !important; 
+ 
+}
+
+
+}
+
+@media screen and (min-width:1024px){
+  body{
+    font-size: 30px !important;
+  }
+    #time{
+        font-size: 34px !important;
+        top: 3.2% !important;
+
+    }
+  #all li{
+    margin-left: -2vw !important; 
+    height: 28vh !important;
+  }
+ #all p{
+  height: 5vh !important;
+  margin:0 0 2vh 2vh !important;
+ }
+  #all h5{
+    margin-left: 0vw !important;
+    font-size: 18px !important;
+    width: 30vw !important;
+  }
+
+}
+img{border:none}
+a {
+  color: #b4d7a8;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.clear{
+  clear: both;
+}
+.bg{
+  position:absolute;
+
+}
+.bg img{
+  width:100%;
+  vertical-align:bottom;
+  display:block
+}
+#time{
+  position: absolute;
+  width: 35%;
+  height: 2%;
+  top:3%;
+  right: 0;
+  font-size: 16px;
+  color: #f3bd2a;
+}
+#container{
+  position: absolute;
+  /*background-color:rgba(255,255,252,0.2);*/
+  left: 9%;
+  top:78vw;
+  width: 80vw;
+/*height: 247vw;*/
+  /*height: 86.3%;*/
+  height: 78.7%;
+  color: #ffffff;
+
+}
+#content{
+  position:absolute;
+  /*background-color:rgba(255,255,255,0.6);*/
+  left: 5%;
+  text-align: center;
+  width: 75vw;
+  height: 24vw;
+  line-height: 22px;
+  font-size: 18px;
+}
+
+#active{
+  position: absolute;
+  /*background-color: rgba(255,255,255,0.6);*/
+  /*left: 20%;*/
+  /*width: 68vw;*/
+  height: 107vw;
+  top: 30vw;
+    left: 1%;
+    text-indent: 20%;
+    width: 80vw;
+}
+
+#introduce{
+  position: absolute;
+  top: 18vw;
+  width: 100%;
+
+}
+#introduce span{
+  display: block;
+  font-size: 16px;
+}
+#question{
+  position: absolute;
+  left: 3%;
+  /*background-color: rgba(255,255,255,0.6);*/
+  top:160vw;
+  width: 75vw;
+  height: 104vw;
+  overflow-y:scroll; 
+}
+ 
+#all{
+  position: absolute;
+  margin: 0;
+  width: 75vw;
+}
+#all li{
+  height: 25vh;
+  margin-bottom: 2vw;
+  margin-left: -9vw;
+  width: 73vw;
+  padding: 0;
+  background: url(../images/bg_3.png) no-repeat;
+  background-size: 100% 100%;
+  
+}
+#all li:last-child{
+  margin-bottom: 0;  
+}
+
+#all p{
+  height: 8vh;
+  margin: 0;
+  padding-top: 0.2vh;
+  margin-left: 2vw;
+  font-size: 14px;
+
+}
+#option{
+
+  position: absolute;
+  /*height: 15vh;*/
+  left: 12%;
+  width: 64vw;
+}
+#all h5{
+ 
+  font-size: 14px;
+  font-weight:normal;
+  float:left;
+  /*background-color: rgba(250,250,250,0.7);*/
+  margin:0;
+  width: 32vw;
+  padding: 0;
+}
+
+
+#all input{
+  display:none;
+  opacity:0;
+}  
+#all span{
+  width: 26vw;
+  line-height: 15px;
+  float: right;
+  margin-top: 0.5vw;
+
+}
+#all input[type=checkbox]+label{
+      display: -webkit-box;  
+      display: -webkit-flex;  
+      display: -ms-flexbox;  
+      display: flex;  
+      -webkit-box-align: center;  
+      -webkit-align-items: center;  
+      -ms-flex-align: center;  
+      align-items: center;  
+      display: inline-block;
+  }  
+#all input[type=checkbox]+label:before{  
+      display: inline-block;  
+      width: 5vw;
+      height: 5vw; 
+      content: '';  
+      color: #fff;  
+      background-image: url(../images/gouxuan.png);
+      background-position: 0 0.1vw;
+      background-size:100%;  
+  }  
+#all input[type=checkbox]:checked+label:before{  
+      content:' ';  
+      background-image:url(../images/gouxuan.png);  
+      background-position: 0 -23.5vw;
+      background-size:100%; 
+ 
+  }  
+
+  #all input[type=radio]+label{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: inline-block;
+}
+#all input[type=radio]+label:before{
+    display: inline-block;
+    width: 5vw;
+    height: 5vw;
+    content: '';
+    color: #fff;
+    background-image: url(../images/gouxuan.png);
+    background-position: 0 0.1vw;
+    background-size:100%;
+}
+#all input[type=radio]:checked+label:before{
+    content:' ';
+    background-image:url(../images/gouxuan.png);
+    background-position: 0 -23.5vw;
+    background-size:100%;
+
+}
+
+
+#bottom{
+  position: absolute;
+  width: 80vw;
+  height: 15vh;
+  bottom: 0.2vh;
+  
+  /*background-color: rgba(255,255,255,0.6);*/
+}
+
+#fill_phone{
+  position: absolute;
+  border:none;
+  background:transparent;
+  left: 38%;
+  width: 30vw;
+  height: 5vw;
+  bottom: 12.4vw;
+  padding-left: 2vw;
+  font-size: 16px;
+  /*background-color: rgba(255,255,255,0.6);*/
+}
+
+#sub{
+  position: absolute;
+  width: 22vw;
+  height: 7.8vw;
+  border: 0;
+  bottom: 1.2vw;
+  left: 29.9vw;
+  font-size: 30px;
+  background-size: 100% 100% !important;
+  background: url(../images/button_03.png) no-repeat;
+}
+
+#sub:active{
+  background: url(../images/button_06.png) no-repeat;
+}
+

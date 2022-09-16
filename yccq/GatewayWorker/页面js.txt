@@ -1,0 +1,73 @@
+var uid = $('#uid').text();
+        var ws;
+        $(function(){
+            connect();
+        })
+        
+        // 连接服务端
+        function connect() {
+           // 创建websocket
+           ws = new WebSocket("ws://"+document.domain+":8282");
+           // 当socket连接打开时，检测uid
+           ws.onopen = onopen;
+           // 当有消息时根据消息类型显示不同信息
+           ws.onmessage = onmessage; 
+           ws.onclose = function() {
+              console.log("连接关闭，定时重连");
+              connect();
+           };
+           ws.onerror = function() {
+              console.log("出现错误");
+           };
+        }
+
+        // 连接建立时发送登录信息
+        function onopen()
+        {
+            if(!uid)
+            {
+                show_warn();
+                return;
+            }
+            // 登录
+            var login_data = '{"type":"login","uid":"'+uid+'"}';
+            console.log("websocket握手成功，发送登录数据:"+login_data);
+            ws.send(login_data);
+            //每隔30秒发送心跳
+            setInterval(heart,30000);
+        }
+
+        //发送心跳
+        function heart(){
+            console.info("向服务端发送心跳包字符串");
+            var heart_data = '{"type":"heart"}';
+            ws.send(heart_data);
+        }
+
+        // 服务端发来消息时
+        function onmessage(e)
+        {
+            console.log(e.data);
+            var data = JSON.parse(e.data);
+            switch(data['type']){
+                // 登录
+                case 'login':
+                    //array('type'=>$message_data['type'],'client_id'=>$client_id,'uid'=>$message_data['uid'],'time'=>date('Y-m-d H:i:s'),'msg'=>"欢迎你 $client_id 登录，准备可以抽奖了")
+                    $('#show_msg').html(data['msg']);
+                    //console.log(data['client_name']+"登录成功");
+                    break;
+                 // 下线
+                case 'logout':
+                    console.log(data['msg']);
+                    break;
+                //抽奖
+                case 'draw':
+                    //$new_message = array('type'=>'draw','uid'=>$uid,'time'=>date('Y-m-d H:i:s'),'msg'=>"您的抽奖结果 $result");
+                    $('#draw_result').html(data['msg']);
+                    
+            }
+        }
+
+        function show_warn(){
+            $('#show_warn').html("你没有带uid");
+        }

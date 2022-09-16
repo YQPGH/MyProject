@@ -1,0 +1,31 @@
+<res>
+   <item name="hunt/bg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/background.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/background.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/ac.jpg" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/挖宝切图_03.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/挖宝切图_01.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/挖宝背景.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/victory.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/over.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt" type="" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/挖宝切图_03.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/startbg.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/wabao.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/bar1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/bar2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/bar.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/jiazaibeijin.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/xunbaologo.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/yun_1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/cloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/挖宝加载2.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="progressbar/cloud1.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="progressbar/xunbaologo.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="progressbar/jiazaibeijin.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/guanqia/xuanguan.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="hunt/xuanguan.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="role/role1_2.png" type="Image" compress="0" pack="0" quality="80" props="" picType="0"/>
+   <item name="hunt/wb.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+   <item name="sign/tongguan.png" type="Image" compress="0" pack="1" quality="80" props="" picType="0"/>
+</res>

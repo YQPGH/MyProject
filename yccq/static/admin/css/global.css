@@ -1,0 +1,274 @@
+/*
+ 广西紫云-tangjian
+ */
+
+/*登录页*/
+.loginbox {
+    background: url(../images/loginbg02.png) no-repeat;
+
+    width: 633px;
+    height: 359px;
+    margin: 180px auto 0 auto
+}
+
+.loginbox ul {
+    color: #fff;
+    padding: 275px 40px 0 40px
+}
+
+.loginbox ul li {
+    float: left;
+    padding-right: 20px;
+    height: 27px;
+    line-height: 27px;
+}
+
+.loginbox ul li span {
+    float: left;
+    padding-right: 12px;
+}
+
+.loginbox ul li .inputext {
+    width: 150px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #a6a6a7;
+    padding-left: 4px;
+}
+
+.loginbox ul li .inputbtn {
+    width: 57px;
+    height: 27px;
+    background: url(../images/btn.png) no-repeat;
+    color: #fff;
+    cursor: pointer;
+    line-height: 35px;
+}
+
+.login_footer {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+.login_footer div {
+    width: auto;
+    text-align: center
+}
+
+/* 头部 左侧 */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 60px;
+    background-color: #393D49;
+}
+
+.header .logo {
+    position: absolute;
+    top: 5px;
+}
+
+.header .logo img {
+    width: 160px;
+}
+
+.header .nav {
+    position: absolute;
+    left: 210px;
+    top: 0;
+    padding: 0;
+    background: none;
+}
+
+.header .layui-nav .layui-nav-item {
+    margin: 0 20px;
+}
+
+.header .admin {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: none;
+}
+
+/* 右侧 */
+.main {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+    right: 10px;
+    padding: 15px;
+    min-width: 800px;
+}
+
+.main .btn-add {
+}
+
+.main table th, .main table td {
+    padding: 8px;
+}
+
+.main .top {
+    height: 38px;
+    line-height: 38px;
+}
+
+/*通用*/
+.layui-table tr th {
+    font-weight: normal;
+}
+
+.red {
+    color: #C40000
+}
+
+a {
+    color: #056dae
+}
+
+/* pages */
+.tdpage {
+    text-align: right;
+}
+
+.pages {
+    clear: both;
+    margin: 10px 0;
+}
+
+.pages em, .pages a, .pages strong {
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 3px 10px;
+    border: 1px solid #E5E5E5;
+}
+
+.pages a:hover {
+    text-decoration: none;
+    border: 1px solid #09C;
+    background: #09C;
+    color: #FFF;
+}
+
+.pages strong {
+    border: none;
+    font-weight: 700;
+}
+
+.pages kbd {
+    margin-left: 5px;
+}
+
+.pages .on {
+    border: 0px;
+}
+
+/* 长度 */
+.w {
+    width: 100%
+}
+
+.w10 {
+    width: 10px
+}
+
+.w20 {
+    width: 20px
+}
+
+.w30 {
+    width: 30px
+}
+
+.w40 {
+    width: 40px
+}
+
+.w50 {
+    width: 50px
+}
+
+.w60 {
+    width: 60px
+}
+
+.w70 {
+    width: 70px
+}
+
+.w80 {
+    width: 80px
+}
+
+.w90 {
+    width: 90px
+}
+
+.w100 {
+    width: 100px
+}
+
+.w150 {
+    width: 150px
+}
+
+.w200 {
+    width: 200px
+}
+
+.w250 {
+    width: 250px
+}
+
+.w300 {
+    width: 300px
+}
+
+.w400 {
+    width: 400px
+}
+
+.w500 {
+    width: 500px
+}
+
+.w600 {
+    width: 600px
+}
+
+.w700 {
+    width: 700px
+}
+
+.w800 {
+    width: 800px
+}
+
+.w900 {
+    width: 900px
+}
+
+.w960 {
+    width: 960px
+}
+
+.w1000 {
+    width: 1000px
+}
+
+.h {
+    height: 100%
+}
+
+.h50 {
+    height: 50px
+}
+
+.h100 {
+    height: 100px
+}
+

@@ -1,0 +1,92 @@
+{
+    "frames": {
+        "1.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 77,
+                "w": 74,
+                "x": 0,
+                "y": 1
+            },
+            "trimmed": true
+        },
+        "2.png": {
+            "frame": {
+                "h": 78,
+                "idx": 0,
+                "w": 74,
+                "x": 0,
+                "y": 78
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 78,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "3.png": {
+            "frame": {
+                "h": 78,
+                "idx": 0,
+                "w": 74,
+                "x": 75,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 78,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "4.png": {
+            "frame": {
+                "h": 77,
+                "idx": 0,
+                "w": 73,
+                "x": 75,
+                "y": 79
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 77,
+                "w": 73,
+                "x": 1,
+                "y": 1
+            },
+            "trimmed": true
+        }
+    },
+    "meta": {
+        "image": "super3.png",
+        "prefix": "super3/"
+    }
+}

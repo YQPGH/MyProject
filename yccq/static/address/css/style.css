@@ -1,0 +1,187 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+html,body{font-family:sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+input,select,textarea{font-size:100%}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("../images/body_bg.png") repeat fixed;
+
+    /*height: 100%;*/
+    min-height:100%;
+    /*height:auto !important;*/
+    background-size: 100% 100%;
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+    #pop{
+
+        height: 568px !important;
+    }
+}
+#pop {
+    background: url("../images/pop_bg.png") no-repeat ;
+
+    background-size: 100% 100%;
+    width: 100%;
+    /*min-height: 640px;*/
+    height: 100%;
+    /*background-attachment: fixed;*/
+}
+
+#form-body {
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    padding-top: 20%;
+    background-attachment: fixed;
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-group {
+    position: relative;
+    width: 70%;
+    display: inline-block;
+}
+
+.form-label {
+    display: inline-block;
+    width: 20%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.form-textarea-label{
+    vertical-align: top;
+}
+
+.form-input {
+    border-radius: 7px;
+    width: 70%;
+    height: 30px;
+    background: url("../images/input_bg.png") no-repeat 100%;
+    border: none;
+    color: #FFFFFF;
+}
+
+.form-textarea {
+    border-radius: 7px;
+    background: url("../images/address_bg.png") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    color: #FFFFFF;
+    width: 75%;
+    font-size: 18px;
+    margin: -16% 0 0 22%;
+}
+
+.form-select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    background: url("../images/input_bg.png") no-repeat 100%;
+    border: none;
+    color: #FFFFFF;
+}
+
+.form-select option{
+    background-color: #493522;
+}
+
+.arrow{
+    position: absolute;
+    right: 5px;
+    top:2px;
+    width: 25px;
+    height: 25px;
+}
+
+.tips {
+    color: #48240d;
+    font-size: 14px;
+}
+
+
+.submit {
+    text-align: center;
+}
+
+.btn_submit {
+    border: none;
+    background: url("../images/btn_submit.png") no-repeat;
+    background-size: cover;
+    width: 130px;
+    height: 50px;
+
+}
+
+#msg{
+    position: absolute;
+    background-color: #737373;
+    border-radius: 3px;
+    width: 240px;
+    height: 100px;
+    display: none;
+    opacity: 0.9;
+    z-index: 999;
+    text-align: center;
+    line-height: 100px;
+    color: #FFFFFF;
+    left: 22%;
+    top: 30%;
+    font-size: 20px;
+}
+
+#province_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+    background: url("../images/input_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #FFFFFF;
+    display:none
+}
+#city_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+    background: url("../images/input_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #FFFFFF;
+    display:none
+}
+#area_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+    background: url("../images/input_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #FFFFFF;
+    display:none
+}

@@ -1,0 +1,140 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #3d3536;
+    background-color: white;
+}
+
+body, html {
+    /* important */
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+
+/**ipad**/
+@media only screen and (min-width:768px)and(max-width:1024px){
+
+}
+/**ipad**/
+@media only screen and (min-width:768px){
+
+}
+
+
+img{border:none}
+a {
+    color: #b4d7a8;
+    text-decoration: none;
+}
+
+
+.bg{
+    position:absolute;
+    background: url(../images/diemouse_invite_bg.png) no-repeat fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+
+
+}
+.content{
+    font-size: 18px;
+    position: absolute;
+    width: 50vw;
+    top: 28%;
+    left: 31vw;
+    text-align: center;
+    color: #FFB800;
+}
+
+
+
+
+#sub{
+    position: absolute;
+    border: 0;
+    height: 35px;
+    width: 84px;
+    bottom:14%;
+    left: 40%;
+    background-image: url(../images/diemouse_btn_03.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+
+}
+#sub:active{
+    background-image: url(../images/diemouse_btn_03.png) ;
+    background-position: 0 -41px;
+    background-color: rgba(0,0,0,0);
+}
+#msg{
+    position: absolute;
+    background-color: #737373;
+    border-radius: 3px;
+    width: 240px;
+    height: 110px;
+    line-height: 100px;
+    display: none;
+    opacity: 0.9;
+    z-index: 99;
+    text-align: center;
+    color: #FFFFFF;
+    left: 20%;
+    top: 30%;
+    font-size: 20px;
+}
+
+
+

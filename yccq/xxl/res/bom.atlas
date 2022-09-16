@@ -1,0 +1,134 @@
+{
+    "frames": {
+        "1.png": {
+            "frame": {
+                "h": 78,
+                "idx": 0,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 78,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "2.png": {
+            "frame": {
+                "h": 71,
+                "idx": 0,
+                "w": 74,
+                "x": 0,
+                "y": 79
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 71,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": true
+        },
+        "3.png": {
+            "frame": {
+                "h": 76,
+                "idx": 0,
+                "w": 73,
+                "x": 75,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 76,
+                "w": 73,
+                "x": 1,
+                "y": 1
+            },
+            "trimmed": true
+        },
+        "4.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 74,
+                "x": 75,
+                "y": 77
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 74,
+                "x": 0,
+                "y": 5
+            },
+            "trimmed": true
+        },
+        "5.png": {
+            "frame": {
+                "h": 68,
+                "idx": 0,
+                "w": 71,
+                "x": 149,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 68,
+                "w": 71,
+                "x": 2,
+                "y": 5
+            },
+            "trimmed": true
+        },
+        "6.png": {
+            "frame": {
+                "h": 78,
+                "idx": 0,
+                "w": 74,
+                "x": 150,
+                "y": 69
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 78,
+                "w": 74
+            },
+            "spriteSourceSize": {
+                "h": 78,
+                "w": 74,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        }
+    },
+    "meta": {
+        "image": "bom.png",
+        "prefix": "bom/"
+    }
+}

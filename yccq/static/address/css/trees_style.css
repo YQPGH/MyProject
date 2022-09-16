@@ -1,0 +1,332 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+html,body{font-family:sans-serif}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}
+input,select,textarea{font-size:100%}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height:100%;
+    width:100%;
+
+    background-size: 100% 100%;
+    background-color: #54210A;
+
+
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+    #pop{
+
+        height: 568px !important;
+    }
+    #form-body {
+        min-height: 568px !important;
+        padding-top: 21% !important;
+    }
+    .form-textarea {
+        /*margin: -24% 0 0 22% !important;*/
+
+    }
+
+}
+#body{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -100;
+}
+#pop {
+    background: url("../images/trees/bg.png") no-repeat 100% 100%;
+    background-size: 100% 100%;
+    width: 100%;
+    /*min-height: 640px;*/
+    height: 100%;
+    /*background-attachment: fixed;*/
+}
+
+#bg-body{
+    background: url("../images/trees/bg_01.png") no-repeat 100% 100%;
+    background-size: 100% 100%;
+    padding-top:10%;
+    padding-bottom: 10%;
+
+}
+
+#form-body {
+
+    width: 63%;
+    /*min-height: 455px;*/
+    min-height: 568px;
+    margin: 0 auto;
+    padding-top: 28%;
+    padding-right: 3%;
+    background-attachment: fixed;
+
+}
+
+.form-row {
+
+    margin-bottom: 2%;
+}
+
+#text_img{
+
+    width: 100%;
+    height: 30px;
+    text-align: center;
+
+}
+
+#text_img p{
+    font-weight: bold;
+    color: #f4cc7f;
+    font-size: 1.6rem;
+    -webkit-text-stroke: 1px #a64414;
+}
+.form-group {
+
+    position: relative;
+    width: 68%;
+    display: inline-block;
+}
+
+.form-label {
+    display: inline-block;
+    width: 22%;
+    vertical-align: middle;
+    text-align: right;
+    font-size: 1.2rem;
+    font-family: "微软雅黑", 黑体;
+    /*font-weight: bold;*/
+    color:#f9e6b2;
+    /*-webkit-text-stroke: 1px #591111;*/
+
+
+}
+
+.form-textarea-label{
+    vertical-align: top;
+}
+
+.form-input {
+
+    border-radius: 7px;
+    width: 68%;
+    /*width: 100%;*/
+    height: 30px;
+    background: url("../images/trees/input_bg.png") no-repeat 100%;
+    border: none;
+    color: #f9e6b2;
+}
+
+.form-textarea {
+    border-radius: 7px;
+    background: url("../images/trees/area_bg.png") no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    color: #f9e6b2;
+    width: 63%;
+    font-size: 18px;
+    /*margin: -23% 0 0 22%;*/
+    padding: 10px;
+}
+
+.textarea {
+    margin-bottom:0px !important;
+}
+
+.form-select {
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width: 100%;
+    border-radius: 7px;
+    height: 30px;
+    background: url("../images/trees/input_bg.png") no-repeat 100%;
+    border: none;
+    color: #f9e6b2;
+
+}
+
+.form-select option{
+    background-color: #693819;
+}
+
+.arrow{
+
+    /*position: absolute;*/
+    /*right: 5px;*/
+    /*top:2px;*/
+    /*width: 25px;*/
+    /*height: 24px;*/
+    /*background-image: url("../images/trees/arrow.png") ;*/
+    /*background-size:100%  ;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: 0 0;*/
+
+}
+
+.arrow:active{
+    /*background-image: url("../images/trees/arrow.png") ;*/
+    /*background-position: 0 -24px;*/
+    /*background-color: rgba(0,0,0,0);*/
+}
+
+
+.tips {
+    color:#ddc197;
+
+
+}
+.wtips{
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+}
+
+.submit {
+    position: absolute;
+    /*background: url("../images/trees/btn_bg.png") no-repeat 100%;*/
+    height: 65px;
+    width: 140px;
+    margin-top:5%;
+    margin-left: 16%;
+
+}
+
+.btn_submit {
+    border: 0;
+    height: 65px;
+    width: 140px;
+    background-image: url(../images/trees/btn_submit.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+}
+.btn_submit:active{
+    background-image: url(../images/trees/btn_submit.png) ;
+    background-position: 0 -65px;
+    background-color: rgba(0,0,0,0);
+}
+#msg{
+    display: none;
+    z-index: 999;
+    text-align: center;
+    line-height: 200px;
+    color: #FFFFFF;
+    font-size: 20px;
+    background: url("../images/trees/tipsbg.png") no-repeat 50% 50%;
+    background-size: 80%;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    top: 25%;
+}
+
+#province_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+    background: url("../images/trees/input_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #f9e6b2;
+    display:none
+}
+#city_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+    background: url("../images/trees/input_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #f9e6b2;
+    display:none
+}
+#area_txt{
+    border: none;
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 7px ;
+    height: 30px;
+
+    background: url("../images/trees/area_bg.png") no-repeat 100%;
+    pointer-events: none;
+    color: #f9e6b2;
+    display:none
+}
+
+#clickSub{
+    display: none;
+    background: url("../images/trees/tipsbg.png") no-repeat 50% 50%;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 248px;
+    position: absolute;
+    top: 25%;
+    color: #FFFFFF;
+    line-height: 20px;
+
+    z-index: 100;
+}
+#clickSub p{
+    margin: 30px ;
+}
+.click_submit{
+    border: 0;
+    height: 48px;
+    width: 110px;
+    background-image: url(../images/trees/queding.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+    float: right;
+    margin-top: 50px;
+    z-index: 101;
+    margin-right: 40px;
+
+}
+
+.click_submit:active{
+    background-image: url(../images/trees/queding.png) ;
+    background-position: 0 -50px;
+    background-color: rgba(0,0,0,0);
+}
+.btn_close{
+    border: 0;
+    height: 48px;
+    width: 110px;
+    background-image: url(../images/trees/btn_close.png);
+    background-size:100%  ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-color: rgba(0,0,0,0);
+    float: left;
+    margin-top: 50px;
+    z-index: 101;
+    margin-left: 40px;
+}
+.btn_close:active{
+     background-image: url(../images/trees/btn_close.png) ;
+     background-position: 0 -50px;
+     background-color: rgba(0,0,0,0);
+ }

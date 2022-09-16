@@ -1,0 +1,155 @@
+{
+    "frames": {
+        "progressBar$bar.png": {
+            "frame": {
+                "h": 8,
+                "idx": 0,
+                "w": 248,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 77,
+                "w": 314
+            },
+            "spriteSourceSize": {
+                "h": 8,
+                "w": 248,
+                "x": 34,
+                "y": 36
+            },
+            "trimmed": true
+        },
+        "progressBar.png": {
+            "frame": {
+                "h": 75,
+                "idx": 0,
+                "w": 309,
+                "x": 0,
+                "y": 9
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 77,
+                "w": 314
+            },
+            "spriteSourceSize": {
+                "h": 75,
+                "w": 309,
+                "x": 2,
+                "y": 1
+            },
+            "trimmed": true
+        },
+        "woniu1.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 73,
+                "x": 0,
+                "y": 85
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 50,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "h": 42,
+                "w": 73,
+                "x": 4,
+                "y": 8
+            },
+            "trimmed": true
+        },
+        "woniu2.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 73,
+                "x": 0,
+                "y": 128
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 50,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "h": 42,
+                "w": 73,
+                "x": 5,
+                "y": 8
+            },
+            "trimmed": true
+        },
+        "woniu3.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 74,
+                "x": 74,
+                "y": 85
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 50,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "h": 42,
+                "w": 74,
+                "x": 4,
+                "y": 8
+            },
+            "trimmed": true
+        },
+        "woniu4.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 74,
+                "x": 74,
+                "y": 128
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 50,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "h": 42,
+                "w": 74,
+                "x": 5,
+                "y": 8
+            },
+            "trimmed": true
+        },
+        "woniu5.png": {
+            "frame": {
+                "h": 42,
+                "idx": 0,
+                "w": 73,
+                "x": 149,
+                "y": 85
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 50,
+                "w": 83
+            },
+            "spriteSourceSize": {
+                "h": 42,
+                "w": 73,
+                "x": 4,
+                "y": 8
+            },
+            "trimmed": true
+        }
+    },
+    "meta": {
+        "image": "load.png",
+        "prefix": "load/"
+    }
+}

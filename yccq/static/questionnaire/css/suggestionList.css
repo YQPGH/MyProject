@@ -1,0 +1,156 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #3d3536;
+  background-color: white;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+
+}
+
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important; 
+    }
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone5 */
+
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important; 
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important; 
+    }
+}
+
+/**ipad**/
+@media only screen and (min-width:768px)and(max-width:1024px){
+
+}
+/**ipad**/
+@media only screen and (min-width:768px){
+
+ #container{
+  top:31% !important;
+}
+
+
+}
+
+
+img{border:none}
+a {
+  color: #b4d7a8;
+  text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.clear{
+  clear: both;
+}
+.bg{
+  position:absolute;
+  background: url(../suggestion/bg_1.png) no-repeat fixed;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+
+}
+
+#close{
+  position: absolute;
+  width: 55px;
+  height: 57px;
+  border: 0;
+  right:0;
+  top:0;
+  background-size: 100% 100%;
+  background: url(../suggestion/guanbi.png) no-repeat;
+ 
+}
+#close:active{
+    background-position: 0 -57px;
+}
+#content{
+  margin-top:24%;
+    /*margin-left: 6vw;*/
+  width: 95vw;
+  height: 66%;
+  overflow-y: scroll;
+
+}
+
+.content_list li{
+  font-size: 20px;
+}
+.content_list p{
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+.reply_content{
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.reply_content a{
+    color: 	#ffc094;
+    font-size: 16px;
+}
+#sub{
+  position: absolute;
+  border: 0;
+  width: 110px;
+  height: 43px;
+  bottom: 5%;
+  left:36vw;
+  font-size: 30px;
+  background-size: 100% 100%;
+  background: url(../suggestion/submit.png) no-repeat;
+ 
+}
+#sub:active{
+    background-position:0 -43px;
+}
+
+

@@ -1,0 +1,93 @@
+<?php $this->load->view('admin/header'); ?>
+
+<!--右侧布局-->
+<div class=" main">
+    <div class="top">
+        <span><?= $this->name; ?></span>
+        <form action="<?= $this->baseurl ?>" method="post" style="float: right">
+            <input type="hidden" name="catid" value="<?= $catid ?>">
+            <div class="layui-form">
+                <div class="layui-input-inline w100">
+                    <select name="field">
+                        <?= getSelect($fields, $field) ?>
+                    </select>
+                </div>
+                <div class="layui-input-inline">
+                    <input type="text" name="keywords" class="layui-input " value="<?= $keywords ?>" id="thumb">
+                </div>
+                <input type="submit" name="submit" class="layui-btn" value=" 搜索 ">
+            </div>
+        </form>
+    </div>
+    <hr>
+
+    <table class="layui-table" lay-skin="line">
+        <thead>
+        <tr>
+            <th width="100">用户ID</th>
+            <th width="100">用户昵称</th>
+            <th width="50">等级</th>
+            <th width="30">编号</th>
+            <th width="140">配方1</th>
+            <th width="140">配方2</th>
+            <th width="140">配方3</th>
+            <th width="140">合成配方</th>
+            <th width="60">状态</th>
+            <th width="">记录时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($list as $key => $value): ?>
+            <tr>
+                <td><?= $value['uid'] ?></td>
+                <td><?= $value['nickname'] ?></td>
+                <td><?= $value['lv'] ?></td>
+                <td><?= $value['number'] ?></td>
+                <td><?= $value['peifang1_name'] ?><br><?= $value['peifang1_name']?$value['peifang1']:''?></td>
+                <td><?= $value['peifang2_name'] ?><br><?= $value['peifang2_name']?$value['peifang2']:''?></td>
+                <td><?= $value['peifang3_name'] ?><br><?= $value['peifang3_name']?$value['peifang3']:''?></td>
+                <td><?= $value['peifang_high_name'] ?><br><?= $value['peifang_high_name']?$value['peifang_high']:''?></td>
+                <td><?= $value['status'] ?></td>
+                <td><?= $value['add_time'] ?></td>
+            </tr>
+        <?php endforeach; ?>
+        </tbody>
+    </table>
+    <div class="margintop pages">
+        信息总数： <?= $count ?>条&nbsp;&nbsp;
+        <?= $pages ?>
+    </div>
+</div>
+
+<script src="<?= base_url('static/layui/layui.js') ?>"></script>
+<script src="<?= base_url('static/admin/js/overtime.js') ?>"></script>
+<script src="<?= base_url('static/admin/js/admin.js') ?>"></script>
+<script>
+    layui.use(['layer', 'form', 'element'], function () {
+        var layer = layui.layer, form = layui.form();
+        var element = layui.element();
+        var $ = layui.jquery //由于layer弹层依赖jQuery，所以可以直接得到
+
+        // 点击更改状态
+        $(".update-status").click(function () {
+            var tid = $(this).attr("name");
+            var mystatus = '';
+            if ($(this).text() == "正常") {
+                mystatus = 1;
+                $(this).text("锁定");
+                $(this).addClass("red");
+            } else {
+                mystatus = 0;
+                $(this).text("正常");
+                $(this).removeClass("red");
+            }
+            $.get("<?=$this->baseurl . 'update_status'?>", {id: tid, status: mystatus}, function (data) {
+                console.log(data);
+            });
+        });
+    });
+
+</script>
+</body>
+</html>
+<!--code by tangjian-->

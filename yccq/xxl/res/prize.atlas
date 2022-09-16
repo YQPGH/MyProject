@@ -1,0 +1,491 @@
+{
+    "frames": {
+        "lebi.png": {
+            "frame": {
+                "h": 100,
+                "idx": 0,
+                "w": 90,
+                "x": 0,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 100,
+                "w": 100
+            },
+            "spriteSourceSize": {
+                "h": 100,
+                "w": 90,
+                "x": 3,
+                "y": 0
+            },
+            "trimmed": true
+        },
+        "quan_1.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 256,
+                "y": 256
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_2.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 191,
+                "y": 256
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_3.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 256,
+                "y": 189
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_4.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 191,
+                "y": 189
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_5.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 251,
+                "y": 122
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_6.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 186,
+                "y": 122
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "quan_7.png": {
+            "frame": {
+                "h": 66,
+                "idx": 0,
+                "w": 64,
+                "x": 126,
+                "y": 242
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 64
+            },
+            "spriteSourceSize": {
+                "h": 66,
+                "w": 64,
+                "x": 0,
+                "y": 0
+            },
+            "trimmed": false
+        },
+        "zhongzi_1_1.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 59,
+                "x": 158,
+                "y": 60
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 64,
+                "w": 65
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 59,
+                "x": 1,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_1_2.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 59,
+                "x": 124,
+                "y": 183
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 64,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 59,
+                "x": 5,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_1_3.png": {
+            "frame": {
+                "h": 62,
+                "idx": 0,
+                "w": 64,
+                "x": 272,
+                "y": 59
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 64,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 62,
+                "w": 64,
+                "x": 2,
+                "y": 2
+            },
+            "trimmed": true
+        },
+        "zhongzi_2_1.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 59,
+                "x": 66,
+                "y": 124
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 65
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 59,
+                "x": 1,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_2_2.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 59,
+                "x": 272,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 59,
+                "x": 5,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_2_3.png": {
+            "frame": {
+                "h": 63,
+                "idx": 0,
+                "w": 66,
+                "x": 91,
+                "y": 60
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 63,
+                "w": 66,
+                "x": 0,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_3_1.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 59,
+                "x": 126,
+                "y": 124
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 65
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 59,
+                "x": 1,
+                "y": 2
+            },
+            "trimmed": true
+        },
+        "zhongzi_3_2.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 59,
+                "x": 212,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 59,
+                "w": 59,
+                "x": 4,
+                "y": 1
+            },
+            "trimmed": true
+        },
+        "zhongzi_3_3.png": {
+            "frame": {
+                "h": 65,
+                "idx": 0,
+                "w": 64,
+                "x": 0,
+                "y": 227
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 65,
+                "w": 64,
+                "x": 2,
+                "y": 1
+            },
+            "trimmed": true
+        },
+        "zhongzi_4_1.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 60,
+                "x": 65,
+                "y": 243
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 65
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 60,
+                "x": 1,
+                "y": 4
+            },
+            "trimmed": true
+        },
+        "zhongzi_4_2.png": {
+            "frame": {
+                "h": 58,
+                "idx": 0,
+                "w": 61,
+                "x": 150,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 58,
+                "w": 61,
+                "x": 3,
+                "y": 4
+            },
+            "trimmed": true
+        },
+        "zhongzi_4_3.png": {
+            "frame": {
+                "h": 62,
+                "idx": 0,
+                "w": 64,
+                "x": 0,
+                "y": 164
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 62,
+                "w": 64,
+                "x": 2,
+                "y": 2
+            },
+            "trimmed": true
+        },
+        "zhongzi_5_1.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 58,
+                "x": 65,
+                "y": 183
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 65
+            },
+            "spriteSourceSize": {
+                "h": 59,
+                "w": 58,
+                "x": 1,
+                "y": 3
+            },
+            "trimmed": true
+        },
+        "zhongzi_5_2.png": {
+            "frame": {
+                "h": 59,
+                "idx": 0,
+                "w": 58,
+                "x": 91,
+                "y": 0
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 59,
+                "w": 58,
+                "x": 5,
+                "y": 4
+            },
+            "trimmed": true
+        },
+        "zhongzi_5_3.png": {
+            "frame": {
+                "h": 62,
+                "idx": 0,
+                "w": 65,
+                "x": 0,
+                "y": 101
+            },
+            "rotated": false,
+            "sourceSize": {
+                "h": 66,
+                "w": 66
+            },
+            "spriteSourceSize": {
+                "h": 62,
+                "w": 65,
+                "x": 1,
+                "y": 2
+            },
+            "trimmed": true
+        }
+    },
+    "meta": {
+        "image": "prize.png",
+        "prefix": "prize/"
+    }
+}
